@@ -8,7 +8,7 @@ import Button from './Button'
 import Menu from './Menu'
 import useOutsideClick from '@/hooks/useOutsideClick'
 import SearchBar from './SearchBar'
-import { Box, ButtonGroup, Flex, Group, Heading, HStack, List, Text, Wrap } from '@chakra-ui/react'
+import { Box, ButtonGroup, Flex, Group, Heading, HStack, List, Spinner, Text, Wrap } from '@chakra-ui/react'
 
 const NAV_LINKS = [
     { label: 'GOE', href: '/', highlight: true },
@@ -46,9 +46,20 @@ export default function Navbar() {
 
     if (!isMounted) {
         return (
-            <nav className="relative px-3 text-white">
-                Loading...
-            </nav>
+        <Flex
+        position="fixed"
+        inset="0"
+        zIndex="50"
+        bg="blackAlpha.700"
+        justify="center"
+        align="center"
+        gap={4}
+        >
+        <Spinner size="xl" />
+        <Text fontSize="2xl" fontWeight="bold" color="white">
+            Loading...
+        </Text>
+        </Flex>
         )
     }
 

@@ -30,7 +30,7 @@ export default function LocationDropDown({
               <Box padding={3} className="text-black bg-[#F6EEE5] rounded-full flex justify-start items-center">
                 <MapPin />
               </Box>
-              <Flex className="flex flex-col justify-start items-start">
+              <Flex className="flex flex-col text-start justify-start items-start">
                 <Text textStyle={'sm'} fontWeight={'normal'} color={'#F6EEE5'}>{item.name}</Text>
                 <Text textStyle={'xs'} fontWeight={'normal'} color={'#F6EEE5'}>{item.description}</Text>
               </Flex>
