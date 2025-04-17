@@ -7,6 +7,7 @@ import LocationDropDown from '../../components/locationDropDown';
 import People from '../../components/People';
 import { locations } from '../../components/SearchBar';
 import styles from './hero.module.css';
+import { DatePickerWithRange } from '@/app/components/DatePicker';
 
 export default function HeroSection() {
   const [location, setLocation] = useState('Cairo, Egypt');
@@ -62,10 +63,9 @@ export default function HeroSection() {
             {/* Date Section */}
             <Flex ml={3} className='md:w-[33%] flex items-center justify-center relative'>
               
-            <button className={`${styles.searchButton} flex w-full cursor-pointer`}>
-              <Calendar className={styles.icon} />
-              <span className={styles.buttonText}>19 March 2025</span>
-            </button>
+            <Flex padding={2} className={`${styles.searchButton} w-full cursor-pointer`}>
+              <DatePickerWithRange/>
+            </Flex>
             <Flex className='absolute w-full top-[90%] md:top-[120%] z-50'>
             </Flex>
             </Flex>
