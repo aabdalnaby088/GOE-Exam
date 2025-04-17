@@ -13,7 +13,6 @@ Sections are split into small, reusable components to ensure the codebase is dyn
 implemented features:
 Search location 
 choose location 
-pick dateRange 
 adjust number of visitors and rooms as needed (max 16 person)
 dummy login & logout only for showing the different navbars (to login just click login, for logout just do the same)
 
