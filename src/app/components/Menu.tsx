@@ -13,7 +13,7 @@ const Menu = ({isLogged, toggleLogin}: {isLogged: boolean, toggleLogin: () => vo
 
         <Drawer.Root open={open} onOpenChange={(e) => setOpen(e.open)}>
             <Drawer.Trigger asChild>
-                <Button variant="outline" className="text-primary" size="sm">
+                <Button variant="outline" className="text-primary" size="md">
                     <AlignJustify />
                 </Button>
             </Drawer.Trigger>
