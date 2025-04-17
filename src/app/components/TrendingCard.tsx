@@ -32,7 +32,7 @@ export default function TrendingCard({trendingData}: {trendingData: TrendingCard
     </Flex>
 
     <Flex>
-    <Text paddingX={8} paddingY={2}  fontWeight={'semibold'} color={'#000'}  className='bg-white rounded-4xl'>See Hotels</Text>
+    <Text paddingX={8} paddingY={2}  fontWeight={'semibold'} color={'#000'}  className='bg-white rounded-4xl cursor-pointer'>See Hotels</Text>
 
     </Flex>
 

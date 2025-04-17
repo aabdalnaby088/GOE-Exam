@@ -24,7 +24,7 @@ export function DatePickerWithRange({
   })
 
   return (
-    <Flex className={cn("grid gap-2", className)}>
+    <Flex gap={2}  cursor={'pointer'} className={cn("grid", className)}>
       <Popover>
         <PopoverTrigger asChild>
           <Button
