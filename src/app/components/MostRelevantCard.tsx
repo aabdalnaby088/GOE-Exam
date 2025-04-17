@@ -22,7 +22,7 @@ export default function MostRelevantCard({mostRelevantData}: {mostRelevantData: 
                     <Text color={'#346D52'} position={'absolute'} top={5} left={8} fontSize={'14px'} background={'#fff'} rounded={'full'} px={3} py={1}>
                         {mostRelevantData.location}
                     </Text>
-                <Text color={'#000'} position={'absolute'} top={4} right={5} border={'1px solid #D2AC71'} fontSize={'14px'} background={'#fff'} rounded={'full'} p={2}>
+                <Text color={'#000'} position={'absolute'} top={4} right={5} border={'1px solid #D2AC71'} fontSize={'14px'} background={'#fff'} rounded={'full'} cursor={'pointer'} p={2}>
                         <Heart/>
                     </Text>
             </Flex>

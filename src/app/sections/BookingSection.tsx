@@ -28,7 +28,7 @@ export default function BookingSection() {
       <Text
         padding={2}
         fontSize={'lg'}
-        className="bg-[#458465] text-white text-center rounded-full w-[80%]"
+        className="bg-[#458465] text-white text-center rounded-full w-[80%] cursor-pointer"
       >
         Book now
       </Text>

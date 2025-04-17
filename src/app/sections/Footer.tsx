@@ -19,7 +19,7 @@ export default function Footer() {
     <Text textStyle="3xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
     </Text>
-    <Text px={3} py={1}  className='text-white w-fit bg-primary rounded-full'>
+    <Text px={3} py={1}  className='text-white w-fit bg-primary rounded-full cursor-pointer'>
         Discover More
     </Text>
     <Flex gap={6} className='max-md:flex-wrap max-md:items-center max-md:justify-center'>
@@ -45,19 +45,19 @@ export default function Footer() {
   {/* right side */}
   <Flex direction={'column'} gap={2} className='w-1/2 items-end justify-end max-md:w-full max-md:items-center max-md:justify-center'>
   <Flex gap={2} >
-    <Text padding={2}  className='bg-primary rounded-xl '>
+    <Text padding={2}  className='bg-primary rounded-xl cursor-pointer'>
         <Facebook/>
     </Text>
-    <Text padding={2} className='bg-primary rounded-xl '>
+    <Text padding={2} className='bg-primary rounded-xl cursor-pointer'>
         <Instagram/>
     </Text>
-    <Text padding={2} className='bg-primary rounded-xl '>
+    <Text padding={2} className='bg-primary rounded-xl cursor-pointer'>
         <Twitter/>
     </Text>
-    <Text padding={2} className='bg-primary rounded-xl '>
+    <Text padding={2} className='bg-primary rounded-xl cursor-pointer'>
         <Youtube/>
     </Text>
-    <Text padding={2} className='bg-primary rounded-xl '>
+    <Text padding={2} className='bg-primary rounded-xl cursor-pointer'>
         <Linkedin/>
     </Text>
   </Flex>

@@ -47,17 +47,14 @@
 .buttonText {
     color: white;
     padding-left: 0.5rem;
-    /* Assuming padding is ~8px */
 }
 
 .exploreButton {
     padding: 1rem 50px;
-    /* Assuming padding-4 is ~16px */
     background-color: #346D52;
-    /* Assuming green-color is a shade of green */
     border-radius: 100px;
     margin-right: 1rem;
-    /* Assuming me-4 is ~16px */
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
