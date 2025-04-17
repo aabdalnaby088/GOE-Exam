@@ -19,13 +19,15 @@ export default function People({
     const totalTravelers = adults + children;
     const maxTravelers = 16;
 
-    // Handler for decrementing values (prevents negative values)
+    // Handler for decrementing values (prevents negative values and 0 travellers)
     const handleDecrement = (
         setter: (value: number) => void,
         currentValue: number
     ) => {
         if (currentValue > 0) {
+            if(totalTravelers > 1){
             setter(currentValue - 1);
+            }
         }
     };
 
