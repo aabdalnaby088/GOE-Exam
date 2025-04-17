@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <Flex direction={'column'} mt={10} className=" justify-center items-center">
+      <Flex direction={'column'} mt={10} className="justify-center items-center">
         <MostRelevant />
         <DiscoverSection />
         <FeaturesSection />
